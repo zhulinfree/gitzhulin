@@ -16,7 +16,7 @@ public class Select {
     public static void main(String[] args) {
         sql = "select * from export_table where A='市北供电公司'";//SQL语句
         db1 = new DBHelper(sql);//创建DBHelper对象
-
+		//look me ,I am playing github!
         try {
             Date start_time = new Date();
             SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
